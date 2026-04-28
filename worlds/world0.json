@@ -1,0 +1,13 @@
+{
+    "name": "World 1",
+    "description": "This is the first world in our game.",
+    "objects": [
+        {"name": "StoneBlock", "mesh": {"name": "cube", "params": [1]}, "texture": "stone_texture", "shader":"shader"},
+        {"name": "player", "mesh": {"name": "sphere", "params": [0.5, 8, 16]}, "texture": "wood_texture", "shader":"shader"}
+    ],
+    "entities": [
+        {"type":"StoneBlock", "position": [0, 0, 0], "rotation": [0, 0, 0]},
+
+        {"type":"player", "position": [0, 20, 0], "rotation": [0, 0, 0], "attrib":"Player"}
+    ]
+}

@@ -1,0 +1,1332 @@
+{
+  "name": "World 1 - 10x10",
+  "description": "This is a 10x10 world with a checkerboard pattern.",
+  "objects": [
+        {"name": "player", "mesh": {"name": "sphere", "params": [0.5, 16, 32]}, "texture": "wood_texture", "shader":"shader"},
+    {
+      "name": "StoneBlock",
+      "mesh": {
+        "name": "cube",
+        "params": [
+          1
+        ]
+      },
+      "texture": "stone_texture",
+      "shader": "shader"
+    },
+    {
+      "name": "WoodBlock",
+      "mesh": {
+        "name": "cube",
+        "params": [
+          1
+        ]
+      },
+      "texture": "wood_texture",
+      "shader": "shader"
+    }
+  ],
+  "entities": [
+        {"type":"player", "position": [0, 20, 0], "rotation": [0, 0, 0], "attrib":"Player"},
+    {
+      "type": "StoneBlock",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        0,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        0,
+        0,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        0,
+        0,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        0,
+        0,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        0,
+        0,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        0,
+        0,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        0,
+        0,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        0,
+        0,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        1,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        1,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        1,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        1,
+        0,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        1,
+        0,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        1,
+        0,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        1,
+        0,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        1,
+        0,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        1,
+        0,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        1,
+        0,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        2,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        2,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        2,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        2,
+        0,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        2,
+        0,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        2,
+        0,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        2,
+        0,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        2,
+        0,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        2,
+        0,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        2,
+        0,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        3,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        3,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        3,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        3,
+        0,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        3,
+        0,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        3,
+        0,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        3,
+        0,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        3,
+        0,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        3,
+        0,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        3,
+        0,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        4,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        4,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        4,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        4,
+        0,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        4,
+        0,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        4,
+        0,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        4,
+        0,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        4,
+        0,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        4,
+        0,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        4,
+        0,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        5,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        5,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        5,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        5,
+        0,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        5,
+        0,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        5,
+        0,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        5,
+        0,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        5,
+        0,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        5,
+        0,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        5,
+        0,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        6,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        6,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        6,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        6,
+        0,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        6,
+        0,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        6,
+        0,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        6,
+        0,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        6,
+        0,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        6,
+        0,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        6,
+        0,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        7,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        7,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        7,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        7,
+        0,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        7,
+        0,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        7,
+        0,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        7,
+        0,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        7,
+        0,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        7,
+        0,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        7,
+        0,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        8,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        8,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        8,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        8,
+        0,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        8,
+        0,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        8,
+        0,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        8,
+        0,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        8,
+        0,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        8,
+        0,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        8,
+        0,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        9,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        9,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        9,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        9,
+        0,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        9,
+        0,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        9,
+        0,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        9,
+        0,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        9,
+        0,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "WoodBlock",
+      "position": [
+        9,
+        0,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "StoneBlock",
+      "position": [
+        9,
+        0,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}
